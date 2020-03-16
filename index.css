@@ -1,0 +1,728 @@
+
+.search {
+    height: 18px;
+    width: 42px;
+    color: rgba(72, 72, 72, 0.5);
+    font-family: "Nunito Sans";
+    font-size: 13px;
+    letter-spacing: 0.22px;
+    line-height: 18px;
+    float: left;
+}
+
+.logo img {
+    height: 30px;
+    width: 30px;
+}
+
+.hourspace {
+    height: 22.25px;
+    width: 116.55px;
+    background-color: #525252;
+
+}
+
+.list-your-space {
+
+  color: #484848;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  line-height: 17px;
+}
+
+
+.line {
+    box-sizing: border-box;
+    height: 3px;
+    width: 487px;
+    border: 1px solid #DCE0E0;
+}
+/*here i created a nav bar for the top of the page*/
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    height: 60px;
+    width: 1440px;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu {
+    height: 34px;
+    width: 305px;
+}
+
+
+
+.u {
+    height: 17px;
+    width: 18px;
+    color: #525252;
+    font-family: ElegantIcons;
+    font-size: 17px;
+    letter-spacing: 0.29px;
+    line-height: 19px;
+}
+
+
+.img1 {
+  height: 500px;
+  width: 1440px;
+}
+
+
+
+.banner {
+    height: 500px;
+    width: 1440px;
+}
+
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+/* Float the link section to the right */
+.header-right {
+    float: right;
+}
+
+
+.rectangle-6 {
+    box-sizing: border-box;
+    height: 34px;
+    width: 157px;
+    border: 1px solid #999999;
+    border-radius: 3px;
+}
+
+.where-are-you-planni {
+  color: #484848;
+  font-family: Raleway;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.log-in {
+    height: 18px;
+    width: 42px;
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+
+.hourspace {
+    height: 18px;
+    width: 42px;
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+.sign-up {
+    height: 18px;
+    width: 54px;
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+.bg {
+    box-sizing: border-box;
+    height: 62px;
+    width: 1350px;
+    border: 1px solid #DDDDDD;
+    background-color: #FFFFFF;
+}
+
+
+
+.find-a-space {
+    color: white;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2.67px;
+    line-height: 47px;
+    text-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.discover-book-a-sp {
+    color: white;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.discover-book-a-sp1 {
+ 
+  color: #484848;
+  font-family: "Nunito Sans";
+  font-size: 15px;
+  letter-spacing: 0.94px;
+  line-height: 20px;
+  text-align: center;
+  padding-right: 40px;
+}
+
+.form {
+    text-align: center;
+}
+
+.input {
+    height: 44px;
+    width: 255px;
+}
+
+.btn1 {
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+
+}
+
+.btn {
+    border: 1px solid #32CD32;
+    background-color: #32CD32;
+    padding: 20px 60px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.event {
+    text-align: center;
+    color: black;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    line-height: 22px;
+    height: 423px;
+    width: 1440px;
+    padding-top: 55px;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered1 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -630%);
+
+}
+
+.bg2 {
+  box-sizing: border-box;
+  height: 189px;
+  width: 355px;
+  border: 1px solid #56C8BD;
+  border-radius: 1px;
+}
+
+.centered2 {
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-25%, -280%);
+}
+
+.centered3 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-2%, -380%);
+}
+
+.looking-for-a-space {
+  color: white;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.71px;
+  line-height: 24px;
+  padding-top: 12px;
+}
+.secure-and-prot {
+  color: #FFFFFF;
+  font-family: Raleway;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.n:before {
+    content: ' \2714';
+}
+
+.secure-merchant-tran {
+
+  color: #FFFFFF;
+  font-family: "Nunito Sans";
+  font-size: 15px;
+  letter-spacing: 0.54px;
+  line-height: 28px;
+}
+.n{
+  color: #FFFFFF;
+  font-family: ElegantIcons;
+  font-size: 15px;
+  letter-spacing: 0.54px;
+  line-height: 28px;
+}
+
+.trust-and-safety-is {
+  color: #FFFFFF;
+  font-family: "Nunito Sans";
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.94px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.bg1 {
+  box-sizing: border-box;
+  height: 189px;
+  width: 289px;
+  border: 1px solid #66C385;
+  border-radius: 1px;
+}
+
+.bg2 {
+  box-sizing: border-box;
+  height: 189px;
+  width: 355px;
+  border: 1px solid #56C8BD;
+  border-radius: 1px;
+}
+
+.pics {
+    align-self: center;
+    padding: 9px;
+    padding-top: 2px;
+    height: 220px;
+    width: auto
+}
+
+.pics2 {
+    align-self: center;
+    padding: 9px;
+    padding-top: 2px;
+}
+
+.hosting-out-a-space {
+  
+  color: white;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.71px;
+  line-height: 24px;
+}
+
+.i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+
+
+.locations {
+  
+   padding-left: 360px;
+}
+
+.our-curated-list {
+  height: 56px;
+  width: 224px;
+  color: #484848;
+  font-family: Raleway;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.some-of-our-favourit {
+  height: 20px;
+  width: 322px;
+  color: #484848;
+  font-family: "Nunito Sans";
+  font-size: 15px;
+  letter-spacing: 0.94px;
+  line-height: 20px;
+  text-align: center;
+
+}
+
+.list {
+
+    height: 663px;
+    width: 1440px;
+    background-color: #F5F5DC;
+    padding-left: 197px;
+    padding-bottom: 60px;
+}
+
+
+.spaces {
+    height: 511px;
+    width: 1440px;
+    text-align: center;
+    color: black;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    line-height: 22px;
+    padding-top: 40px;
+    padding-left: 50px;
+
+}
+
+
+.secure {
+    height: 392px;
+    width: 1440px;
+    text-align: center;
+    color: black;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    line-height: 22px; 
+}
+
+.caption10 {
+
+}
+
+.caption {
+      position: absolute;
+      width: 323px;
+      font-family: Raleway;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      line-height: 19px;
+      text-align: center;
+      height: 47px;
+      bottom: -100px;
+      left: 100px;
+      color: #FFFFFF;
+      border: thin;
+      font-weight:bold;
+      opacity:0.7;
+      padding-bottom: 0px;
+      transform: translate(105px, 176px);
+      background-color: rgba(0,0,0,0.5)
+}
+
+.caption1 {
+      position: absolute;
+      width: 323px;
+      font-family: Raleway;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      line-height: 19px;
+      text-align: center;
+      height: 47px;
+      bottom: -100px;
+      left: 100px;
+      color: #FFFFFF;
+      border: thin;
+      font-weight:bold;
+      opacity:0.7;
+      padding-bottom: 0px;
+      transform: translate(450px, 176px);
+      background-color: rgba(0,0,0,0.5)
+
+
+}
+
+
+
+.thumbs1 {
+  height: 220px;
+  width: 1060px;
+}
+
+/* for this section of code from line 509 to 560 i had to create different class in order to line up the captions with its corresponding image*/
+.caption2 {
+      position: absolute;
+      width: 323px;
+      font-family: Raleway;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      line-height: 19px;
+      text-align: center;
+      height: 47px;
+      bottom: -100px;
+      left: 100px;
+      color: #FFFFFF;
+      border: thin;
+      font-weight:bold;
+      opacity:0.7;
+      padding-bottom: 0px;
+      transform: translate(795px, 176px);
+      background-color: rgba(0,0,0,0.5)
+
+}
+
+.caption4 {
+      position: absolute;
+      color: orange;
+      border: thin;
+      background-color: rgba(0,0,0,0.5)
+      top: 50px;
+      left: 50px;
+      transform: translate(150px, -50px);
+
+} 
+
+.caption5 {
+      position: absolute;
+      color: orange;
+      border: thin;
+      background-color: rgba(0,0,0,0.5)
+      top: 50px;
+      left: 50px;
+      transform: translate(506px, -50px);
+
+}
+
+.caption6 {
+      position: absolute;
+      color: orange;
+      border: thin;
+      background-color: rgba(0,0,0,0.5)
+      top: 50px;
+      left: 50px;
+      transform: translate(863px, -50px);
+}
+
+/* i had to use transfrom in order to get the stars to appear on the image*/
+.checked {
+  left: 50px;
+  transform: translate(-120px);
+}
+.money {
+
+  color: #FFFFFF;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+  line-height: 21px;
+  left: 50px;
+  top: 50px;
+  transform: translate(100px, -20px);
+}
+
+/*for this section I used the same method in order to get the captions on the images like i did above*/
+.bg3 {
+  height: 79px;
+  width: 340px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  left: 50px;
+  top: 50px;
+  transform: translate(0px, -20px);
+}
+
+.bg4{
+  height: 79px;
+  width: 340px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  left: 50px;
+  top: 50px;
+  transform: translate(-721px, 280px);
+}
+
+.bg5 {
+  height: 79px;
+  width: 340px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  left: 50px;
+  top: 50px;
+  transform: translate(-361px, 280px);
+}
+ .bg6 {
+
+  height: 79px;
+  width: 340px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  left: 50px;
+  top: 50px;
+  transform: translate(-4px, 280px);
+}
+.meet {
+
+    height: 511px;
+    width: 1440px;
+    text-align: center;
+    color: black;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    line-height: 22px;
+}
+/*I used the rounded-circle class from bootstrap in order to get the avatar to be rounded*/
+.rounded-circle {
+  position: all;
+  top: 50px;
+  left: 50px;
+  transform: translate(132px, -80px);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.trending-spaces {
+  
+  color: #484848;
+  font-family: Raleway;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  text-align: center;
+  
+}
+
+.popular-with-hourspa {
+
+  color: #484848;
+  font-family: "Nunito Sans";
+  font-size: 15px;
+  letter-spacing: 0.94px;
+  line-height: 20px;
+  text-align: center;
+ 
+}
+/*in the footer i used flex direction in order to get the content to display inline*/
+.footer {
+    background-color: #484848;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 10px;
+    width: 1440px;
+
+}
+
+.pic1 {
+  height: 392px;
+  width: 1440px;
+}
+
+.copyright-2016-hours {
+
+    color: #484848;
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    letter-spacing: 0.54px;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer1 {
+    height: 58px;
+    width: 1440px;
+    border-radius: 1px;
+    background-color: #DCE0E0;
+}
+
+.icon-background {
+    color: white;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  left: 50px;
+  transform: translate(-110px);
+}
+
+
+
+
+.plan1 {
+
+  height: 220px;
+  width: 340px;
+  padding-right: 15px;
+
+
+}
+/*this was created to have spaces inbetween the images*/
+.trending {
+  padding-top: 30px;
+  padding-right: 27px;
+}
+

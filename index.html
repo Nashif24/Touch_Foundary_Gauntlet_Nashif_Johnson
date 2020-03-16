@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hourspace</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--this style was put here to get rid of any excess space created by the html page-->
+    <style type="text/css">
+    html,
+    body {
+
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+
+    }
+
+    font-family: 'Open Sans',
+    sans-serif;
+    font-family: 'Raleway',
+    sans-serif;
+    font-family: 'Nunito Sans',
+    sans-serif;
+    </style>
+</head>
+
+<body>
+    <!--this is the navigation div I used the basic way of creating a navbar by using one div and a tags for the items in the navigation-->
+    <div class="topnav">
+        <a href="#default" class="logo"> <img src="./Gauntlet/logo.png"></a>
+        <a class="active" href="#default" class="hourspace">Hourspace</a>
+        <a class="u" href="#default"><i class="fa fa-search" aria-hidden="true" class="i"></i></a>
+        <a href="#default" class="search">Search</a>
+        <a href="#default">
+            <hr class="line"></a>
+        <a href="#default" class="menu">
+            <div class="cta-button">
+                <button class="rectangle-6">
+                    <p class="list-your-space">List your Spaces</p>
+                </button>
+            </div>
+        </a>
+        <a href="#default">
+            <h2 class="sign-up">Sign up</h2>
+        </a>
+        <a href="#default">
+            <h2 class="log-in">Log In</h2>
+        </a>
+    </div>
+    <!--here i used two div's to split the headings from the input fields in order to align it to the center of the image-->
+    <img class="img1" src="./Gauntlet/bg.png">
+    <div class="centered">
+        <div class="banner-content">
+            <h4 class="find-a-space">Find a Space</h4>
+            <h6 class="discover-book-a-sp">Discover & Book Space For Your Next Event</h6>
+        </div>
+        <form class="form">
+            <input class="input" type="text" name="location" placeholder="Location"><i class="down"></i>
+            <input class="input" type="text" name="plan" placeholder="What are you planning"><i class="down"></i>
+            <button class="btn">Search</button>
+        </form>
+    </div>
+    <!--for this section i used one div for the headings above the image and used another one to get the the images inline with each other, and the captions I used mostly css to line up the captions with it's corresponding image-->
+    <div class="event">
+        <h1 class="where-are-you-planni">Where are you planning your next event?</h1>
+        <h4 class="discover-book-a-sp1">Discover & Book Space For Your Next Event</h4>
+        <div>
+            <img class="plan1" src="./Gauntlet/capetown.jpg" alt="travelling1">
+            <div class="caption"><br>Cape Town</div>
+            <img class="plan1" src="./Gauntlet/thumb.png" alt="travelling2">
+            <div class="caption1"><br>Gauteng</div>
+            <img class="plan1" src="./Gauntlet/durban.jpg" alt="travelling3">
+            <div class="caption2"><br>Durban</div>
+        </div>
+    </div>
+    <!-- for this section i used 4 div's in order to get the images to have the correct spaces inbetween them, unfortnately i could not get the captions to appear on these images so i had to improvise-->
+    <div class="list">
+        <div class="locations">
+            <h2 class="our-curated-list">Our Curated List</h2>
+            <h4 class="some-of-our-favourit">Some of our favourite, featured collections</h4>
+        </div>
+        <div class="thumbs">
+            <img class="pics" src="./Gauntlet/scenic.png" alt="travelling1">
+            <img class="pics" src="./Gauntlet/affordjhb.png" alt="travelling2">
+            <img class="pics" src="./Gauntlet/scenicdbn.png" alt="travelling3">
+        </div>
+        <div class="thumbs1">
+            <img class="pics" src="./Gauntlet/affordcpt.png" alt="travelling1">
+            <img class="pics" src="./Gauntlet/thumb.jpg" alt="travelling2">
+            <img class="pics" src="./Gauntlet/afforddbn.png" alt="travelling3">
+        </div>
+    </div>
+    <!-- this section was a challenge trying to get the captions with the stars on the images, i used the font awesome in order to get the five star rating to display and broke down the other caption with divs beneath the stars-->
+    <div class="spaces">
+        <h2 class="trending-spaces">Trending Spaces</h2>
+        <h4 class="popular-with-hourspa">Popular with Hourspace Users</h4>
+        <div class="trending">
+            <img class="scaled" height="230px" width="auto" style="padding-right: 10px;" src="./Gauntlet/thumb2.jpg" alt="travelling1">
+            <div class="caption4"><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i> <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <p class="money">R750 ZAR</p>
+                <div class="bg3">
+                    <p style="color: black; padding-right: 200px; padding-top: 25px;">The Space Title</p>
+                    <p style="color: black; padding-right: 150px;">Gardens, Cape Town</p>
+                     <img width="53px" height="53px" class="rounded-circle" src="./Gauntlet/partner4.jpg">
+                </div>
+            </div>
+            <img class="scaled" height="230px" width="auto" style="padding-right: 10px;" src="./Gauntlet/thumb2.jpg" alt="travelling1">
+            <div class="caption5"><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i> <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <p class="money">R750 ZAR</p>
+                <div class="bg3">
+                    <p style="color: black; padding-right: 200px; padding-top: 25px;">The Space Title</p>
+                    <p style="color: black; padding-right: 150px;">Gardens, Cape Town</p>
+                    <img width="53px" height="53px" class="rounded-circle" src="./Gauntlet/partner4.jpg">
+                </div>
+            </div>
+            <img class="scaled" height="230px" width="auto" style="padding-right: 10px;" src="./Gauntlet/thumb2.jpg" alt="travelling1">
+            <div class="caption6"><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i> <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <p class="money">R750 ZAR</p>
+                <div class="bg3">
+                    <p style="color: black; padding-right: 200px; padding-top: 25px;">The Space Title</p>
+                    <p style="color: black; padding-right: 150px;">Gardens, Cape Town</p>
+                    <img width="53px" height="53px" class="rounded-circle" src="./Gauntlet/partner4.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--for this section I used many divs in order to get the items to display inside the banner pic, i used transform translate in css in order to get the items from the box to show in the center-->
+    <div class="secure">
+        <img class="pic1" src="./Gauntlet/bg.jpg">
+        <div>
+            <div class="centered1">
+                <h2 class="secure-and-prot">100% secure and protected</h2>
+                <h4 class="trust-and-safety-is">Trust and Safety is our #1 Priority at Hourspace</h4>
+            </div>
+        </div>
+        <div class="centered2">
+            <div class="bg1">
+                <h4 class="looking-for-a-space">Looking for a Space</h4>
+                <ul style="list-style-type: none" class="secure-merchant-tran">
+                    <li class="n">Secure Merchant Transactions</li>
+                    <li class="n">Authenticated Hosts</li>
+                    <li class="n">Direct Messaging with Hosts</li>
+                    <li class="n">Host Profile and Reviews</li>
+                </ul>
+            </div>
+        </div>
+        <div class="centered3">
+            <div class="bg2">
+                <h4 class="hosting-out-a-space">
+                    Hosting out a Space
+                </h4>
+                <ul style="list-style-type: none" class="r-1-000-000-insurance">
+                    <li class="n">R1,000,000 Insurance Coverage</li>
+                    <li class="n">Booking Management Platform Flexible</li>
+                    <li class="n">Cancellation and Deposit Policies</li>
+                    <li class="n">24/7 Customer Support Team</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- here i used the container class from bootstrap in order to display my images in line and the captions for the images was the same code i used from the trending spaces section-->
+    <div class="meet">
+        <h2 class="meet-fellow-hourspac">Meet Fellow Hourspaces</h2>
+        <div class="container">
+            <img class="pics2" src="./Gauntlet/image.png" alt="travelling1">
+            <div class="caption6">
+                <div class="bg4">
+
+                <p style="color: black; padding-left: 5px; padding-top: 5px;">Host Name</p>
+
+                <p style="color: black; padding-left: 5px;">Title of Space here</p>
+                <img width="53px" height="53px" class="rounded-circle" src="./Gauntlet/partner4.jpg">
+
+            </div>
+            </div>
+            
+            <img class="pics2" src="./Gauntlet/image.png" alt="travelling1">
+            <div class="caption6">
+                <div class="bg5">
+                <p style="color: black; padding-right: 5px; padding-top: 5px;">Host Name</p>
+                <p style="color: black; padding-right: 5px;">Title of Space here</p>
+                 <img width="53px" height="53px" class="rounded-circle" src="./Gauntlet/partner4.jpg">
+            </div>
+            </div>
+            <img class="pics2" src="./Gauntlet/image.png" alt="travelling1">
+            <div class="caption6">
+                <div class="bg6">
+                <p style="color: black; padding-right: 5px; padding-top: 5px;">Host Name</p>
+                <p style="color: black; padding-right: 5px;">Title of Space here</p>
+                 <img width="53px" height="53px" class="rounded-circle" src="./Gauntlet/partner4.jpg">
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- for the footer i created an unordered list and then i used css to display all of the items of the footer in a row using display flex and flex-direction row in order to have spaces inbetween each section of the footer with it's corresponding headings-->
+    <footer class="footer">
+        <div class="hourspace2">
+            <h2>Hourspace</h2>
+            <ul style="list-style-type: none;">
+                <li>About</li>
+                <li>Contact Us</li>
+                <li>Terms of Service</li>
+                <li>Privacy Policy</li>
+                <li>Cancellation Party</li>
+                <li>Space Use Agreement</li>
+            </ul>
+        </div>
+        <div class="discover">
+            <h2>Discover Spaces</h2>
+            <ul style="list-style-type: none;">
+                <li>How it works</li>
+                <li>List your space</li>
+                <li>Help Centre</li>
+                <li>Press</li>
+                <li>Site Map</li>
+            </ul>
+        </div>
+        <!--for this section of the footer i again used fa fa fonts in order to get the symbols needed, and i used an unordered list to display the items in line-->
+        <div class="connect">
+            <h2>Connect</h2>
+            <ul class="icons" style="list-style-type: none;">
+                <li><i class="fa-stack fa-1x">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fa fa-facebook fa-stack-1x"></i>
+                    </i></li>
+                <li><i class="fa-stack fa-1x">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fa fa-twitter fa-stack-1x"></i>
+                    </i></li>
+                <li><i class="fa-stack fa-1x">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fa fa-google fa-stack-1x"></i>
+                    </i></li>
+                <li><i class="fa-stack fa-1x">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fa fa-youtube-play fa-stack-1x"></i>
+                    </i></li>
+                <li><i class="fa-stack fa-1x">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fa fa-google-plus-official fa-stack-1x"></i>
+                    </i></li>
+                <li><i class="fa-stack fa-1x">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fa fa-instagram fa-stack-1x"></i>
+                    </i></li>
+                <li><i class="fa-stack fa-1x">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fa fa-pinterest fa-stack-1x"></i>
+                    </i></li>
+                <li><i class="fa-stack fa-1x">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fa fa-envelope fa-stack-1x"></i>
+                    </i></li>
+            </ul>
+        </div>
+    </footer>
+    <!--for the last footer i just used the css on the invison website in order to get it to display correctly-->
+    <footer class="footer1">
+        <h4 class="copyright-2016-hours">Copyright 2016 Hourspace Co. All rights reserved</h4>
+    </footer>
+</body>
+
+</html>
